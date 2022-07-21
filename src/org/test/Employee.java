@@ -19,6 +19,10 @@ private void employeeDetails(String name){
 	System.out.println("Employee Name: "+ name );
 }
 
+public void employeeDetails(double mobile) {
+	System.out.println("Mobile: "+ mobile);
+}
+
 public static void main(String[] args) {
 	Employee e= new Employee();
 	e.employeeDetails(4);
