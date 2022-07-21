@@ -19,10 +19,19 @@ private void employeeDetails(String name){
 	System.out.println("Employee Name: "+ name );
 }
 
+<<<<<<< HEAD
+
+public void employeeDetails(String fn, String ln) {
+	System.out.println("hi");
+}
+
+
+=======
 public void employeeDetails(double mobile) {
 	System.out.println("Mobile: "+ mobile);
 }
 
+>>>>>>> 302f0fec1a552769b2e88b9ebbf42bbd776cd101
 public static void main(String[] args) {
 	Employee e= new Employee();
 	e.employeeDetails(4);
