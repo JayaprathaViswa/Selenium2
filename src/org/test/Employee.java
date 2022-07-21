@@ -19,6 +19,12 @@ private void employeeDetails(String name){
 	System.out.println("Employee Name: "+ name );
 }
 
+
+public void employeeDetails(String fn, String ln) {
+	System.out.println("hi");
+}
+
+
 public static void main(String[] args) {
 	Employee e= new Employee();
 	e.employeeDetails(4);
